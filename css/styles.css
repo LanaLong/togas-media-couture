@@ -314,11 +314,18 @@ header {
 }
 
 .header {
-  background: url(../img/img-togas-lp/02-header.jpg) no-repeat center top;
+  background: url("img/img-togas-lp/02-header.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
 }
+ #intro {
+            background: url("img/img-togas-lp/02-header.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
 .container {
   max-width: 1140px;
